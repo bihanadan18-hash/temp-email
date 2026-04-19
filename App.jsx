@@ -2,8 +2,8 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Mail, RefreshCw, Trash2, Eye, Copy, Check, Clock, ShieldCheck, Globe } from 'lucide-react';
 
 // KONFIGURASI: Ganti dengan data Anda
-const WORKER_URL = "https://your-worker.your-subdomain.workers.dev"; // Ganti ini!
-const MY_DOMAIN = "yourdomain.com"; // Ganti ini!
+const WORKER_URL = "https://temp-mail-backend.bihanadan18.workers.dev/"; // Ganti ini!
+const MY_DOMAIN = "mail.rekenbutler.com"; // Ganti ini!
 
 export default function App() {
   const [email, setEmail] = useState('');
